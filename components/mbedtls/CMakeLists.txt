@@ -1,3 +1,4 @@
+cmake_minimum_required(VERSION 3.5)
 idf_build_get_property(target IDF_TARGET)
 idf_component_register(INCLUDE_DIRS "port/include" "port/include/${target}" "mbedtls/include"
                     REQUIRES lwip)

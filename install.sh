@@ -3,7 +3,7 @@
 set -e
 set -u
 
-export IDF_PATH=$(cd $(dirname $0); pwd)
+#export IDF_PATH=$(cd $(dirname $0); pwd)
 
 echo "Installing ESP-IDF tools"
 ${IDF_PATH}/tools/idf_tools.py install
